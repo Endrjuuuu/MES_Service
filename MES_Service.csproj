@@ -133,6 +133,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005161039437_MES_firstMigration.cs" />
+    <Compile Include="Migrations\202005161039437_MES_firstMigration.designer.cs">
+      <DependentUpon>202005161039437_MES_firstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CalculatorContext.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\Module.cs" />
@@ -292,6 +297,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202005161039437_MES_firstMigration.resx">
+      <DependentUpon>202005161039437_MES_firstMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
