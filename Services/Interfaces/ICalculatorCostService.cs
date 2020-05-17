@@ -2,7 +2,7 @@
 
 namespace MES_Service.Services.Interfaces
 {
-    public interface ICalculatorService
+    public interface ICalculatorCostService
     {
         OperationResultDTO CalculateCost(string cityName, ModuleListDTO moduleListDTO);
     }

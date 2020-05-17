@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Services.Description;
-
-namespace MES_Service.Models
+﻿namespace MES_Service.Models
 {
     public class SearchHistory
     {
@@ -14,6 +8,6 @@ namespace MES_Service.Models
         public string ModuleName2 { get; set; }
         public string ModuleName3 { get; set; }
         public string ModuleName4 { get; set; }
-        public decimal ProductionCost { get; set; }
+        public double ProductionCost { get; set; }
     }
 }

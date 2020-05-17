@@ -10,9 +10,9 @@ namespace MES_Service.Services.Interfaces
 
         OperationSuccessDTO<IList<City>> GetCities();
 
-        OperationResultDTO UpdateCostOfWorkingHour(string cityName, decimal workingHourCost);
+        OperationResultDTO UpdateCostOfWorkingHour(string cityName, double workingHourCost);
 
-        OperationResultDTO UpdateTransportCost(string cityName, decimal transportCost);
+        OperationResultDTO UpdateTransportCost(string cityName, double transportCost);
 
         OperationResultDTO AddCity(City city);
 

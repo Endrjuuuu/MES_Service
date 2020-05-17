@@ -2,7 +2,7 @@
 {
     public class ResultCostDTO
     {
-        public decimal Cost { get; set; }
+        public double Cost { get; set; }
         public bool InSearchHistory { get; set; }
     }
 }

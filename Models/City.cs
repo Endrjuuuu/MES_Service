@@ -4,8 +4,8 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public decimal TransportCost { get; set; }
-        public decimal CostOfWorkingHour { get; set; }
+        public double TransportCost { get; set; }
+        public double CostOfWorkingHour { get; set; }
         public virtual SearchHistory SearchHistory { get; set; }
     }
 }
